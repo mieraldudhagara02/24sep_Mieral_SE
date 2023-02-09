@@ -1,0 +1,22 @@
+Q-2.  WHAT IS OOP? LIST OOP CONCEPTS.
+
+-->   OOP-Object Oriented Programming.
+
+-->   Object-oriented programming is a computer programming model that organizes software design
+      around data, or objects, rather than functions and logic.
+
+-->   The first step in OOP is to collect all of the objects a programmer wants to manipulate
+      and identify how they relate to each other.
+
+-->   Once an object is known, it is labeled with a class of object that defines the kind of data
+      it contains.
+
+      CONCEPTS OF OOP:-
+      1.   Class
+      2.   Object
+      3.   Encapsulation
+      4.   Inheritance
+      5.   Abstraction 
+      6.   Polymorphism
+
+-->   Class and Object are pillor of OOP.

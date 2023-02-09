@@ -1,0 +1,17 @@
+--> DIFFERENCE BETWEEN 'POP' AND 'OOP'.
+
+                 POP                                               OOP
+
+- POP - Procedural Oriented Programming           - OOP - Object Oriented Programming
+
+- It is a procedural model based programming      - It is a object model based programming language.
+  language.
+
+- It is known as POP.                             - It is known as OOP.
+
+- Top to Down approch.                            - Bottom to up approch.
+
+- Runs faster than OOP.                           - Runs slower than POP.
+
+- If the size of problem is small, POP is         - If the size of the problem is big, OOP is 
+  preferred.                                        preferred.
