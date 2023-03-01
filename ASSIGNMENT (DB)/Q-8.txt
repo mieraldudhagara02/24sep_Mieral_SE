@@ -1,0 +1,32 @@
+Q-8. What is SQL Key Constraints writing an Example of SQL Key Constraints.
+
+
+-->  SQL constraints are used to specify rules for the data in a table.
+
+==>  The available constraints in SQL are:
+        
+        * Primary Key
+        * Foreign Key
+        * Unique Key
+
+* PRIMARY KEY:-
+
+- A Primary Key is a column of table which uniquely identifies each tuple in that table.
+
+- Only one Primary Key is allowed to used in a table.
+
+- The Primary Key does not accept the any duplicate and NULL values.
+
+
+* FOREIGN KEY:-
+
+- A Foreign Key is a field which can uniquely identify each row in a another table.
+
+- And this constraint is used to specify a field as Foreign Key.
+
+* UNIQUE KEY:-
+
+- This constraint when specified with a column, tells that all the values in the column
+  must be unique. 
+
+- That is, the values in any row of a column must not be repeated.

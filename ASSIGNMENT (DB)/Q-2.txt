@@ -1,0 +1,30 @@
+ Q-2. What is Normalization?
+
+
+-->  Normalization is the process to eliminate data redundancy.
+
+-->  Normalization also helps to organize the data in the database.
+
+-->  It is a multi-step process that sets the data into tabular form and 
+     removes the duplicated data from the realtional tables.
+
+-->  Normalization is a database design technique that reduces data redundancy
+     and eliminates undesirable characteristics like Insertion,Update etc.
+
+-->  Normalization rules divides larger tables into smaller tables.
+
+-->  The purpose of Normalization in SQL is to eliminate redundant(repetitive)
+     data and ensure data is stored logically.
+
+-->  Normalization is a technique of organizing the data into multiple related
+     tables, to minimize DATA REDUNDANCY.
+
+DATABASE NORMAL FORMS:-
+
+1. 1NF (First Normal Form)
+2. 2NF (Second Normal Form)
+3. 3NF (Third Normal Form)
+4. BCNF (Boyce-Code Normal Form)
+5. 4NF (Four Normal Form)
+6. 5NF (Five Normal Form)
+7. 6NF (Six Normal Form)

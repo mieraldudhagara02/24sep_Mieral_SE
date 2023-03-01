@@ -1,0 +1,35 @@
+TASK : 4
+--------
+
+(a)  All orders for more than $1000.
+     -------------------------------
+
+     Query:-
+
+
+
+(b)  Names and Cities of all Salespeople in London with Commission below 0.12.
+     -------------------------------------------------------------------------
+
+     Query:-   
+     SELECT `Sname`,`City` FROM `TABLE-1` WHERE `City`= 'london' AND `Comm`< '.12';
+
+
+(c)  All Salespeople either in Barcelona or in London.
+     -------------------------------------------------   
+
+     Query:-
+     SELECT `Sname` FROM `TABLE-1` WHERE `City`= 'barcelona' OR `City`= 'london';
+
+(d)  All Salespeople with Commission between 0.10 and 0.12. (Boundary values should be excluded)
+     -------------------------------------------------------------------------------------------
+
+     Query:-
+     SELECT `Sname`,`Comm` FROM `TABLE-1` WHERE `Comm`>'.1' AND `Comm`<'.12';
+
+(e)  All customers excluding those with rating <= 100 unless they are located in Rome.
+     --------------------------------------------------------------------------------
+
+     Query;
+     SELECT `CName` FROM `table-2` WHERE `Rating`>100;
+

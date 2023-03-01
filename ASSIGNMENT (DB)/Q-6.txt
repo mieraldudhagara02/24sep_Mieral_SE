@@ -1,0 +1,24 @@
+Q-6. What is DDL Interpreter?
+
+-->  SQL statements are divided into two major categories:
+        1.DDL
+        2.DML
+
+- DDL stands for Data Definition Language.
+- DML stands for Data Manipulation Language.
+
+==>  DDL:-
+
+-->  Data Definition Language is a subset of SQL.
+
+-->  DDL statements are used to build and modify the structure of your
+     tables and other objects in the database.
+
+-->  When you execute a DDL statement, it makes effect immediately.
+
+-->  SQL DDL commands are further divided into the following major categories:
+
+         * CREATE
+         * ALTER
+         * DROP
+         * TRUNCATE
