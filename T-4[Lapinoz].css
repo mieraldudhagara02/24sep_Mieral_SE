@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    height: 70px;
+    width: auto;
+    background-color: transparent;
+}
+.logo img{
+    height: 70px;
+    width: 15%;
+    padding: 0px 80px 0px 0px;
+    float: left;
+    background-color: transparent;
+}
+.menu ul{
+    height: 70px;
+    padding: 0px 0px 0px 550px;
+    background-color: transparent;
+}
+.menu ul li{
+    list-style: none;
+    display: inline;
+    padding: 25px;
+    line-height: 4;
+    color: #236e4a;
+}
+button{
+    border: 1px solid #236e4a; 
+    border-radius: 4px; 
+    background-color: #236e4a; 
+    color: white;
+    padding: 5px;
+}
+#Slider img{
+    height: 575px;
+    width: 100%;
+    filter: brightness(45%);
+    position: relative;
+}
+.t1{
+    position: absolute;
+    top: 80px;
+    left: 440px;
+    color: #ffffff;
+    font-size: 60px;
+}
+.t2{
+    position: absolute; 
+    top: 150px;
+    left: 530px;
+    color: #ffff00;
+    font-size: 60px;
+}
+.t3{
+    position: absolute; 
+    top: 80px;
+    left: 460px;
+    color: #ffffff;
+    font-size: 60px;
+}
+.t4{
+    position: absolute; 
+    top: 150px;
+    left: 400px;
+    color: #ffff00;
+    font-size: 60px;
+}
+.t5{
+    position: absolute; 
+    top: 80px;
+    left: 370px;
+    color: #ffffff;
+    font-size: 60px;
+}
+.t6{
+    position: absolute; 
+    top: 150px;
+    left: 490px;
+    color: #ffff00;
+    font-size: 60px;
+}
+.same{
+    position: fixed;
+    top: 340px;
+    left: 490px;
+    font-size: 40px;
+    color: #fff;
+}
+.left{
+    border-radius: 20px 0px 0px 20px;
+    position: fixed;
+    top: 400px;
+    left: 500px;
+    background-color: #ffffff;
+    color: #11141a;
+    border-color: #cecbbf;
+    padding: 10px 70px;
+}
+.right{
+    border-radius: 0px 20px 20px 0px;
+    position: fixed;
+    top: 400px;
+    left: 755px;
+    background-color: #ffffff;
+    color: #11141a;
+    border-color: #cecbbf;
+    padding: 10px 40px;
+}
+.same1{
+    top: 450px;
+    left: 465px;
+    font-size: 30px;
+    position: fixed;
+    color: #fff;
+}
+.middle{
+    top: 550px;
+    left: 670px;
+    position: fixed; 
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+.middle:hover{
+    background-color: white;
+    color: black;
+}
+.left .menu1 {
+    color: black;
+    width: 155px;
+    background-color: white;
+    position: absolute;
+    position: fixed;
+    top: 440px;
+    left: 545px;
+    display: none;
+}
+.left .menu1 ul li {
+    list-style: none;
+    padding: 2px 0px;
+    display: block;
+}
+.left:hover .menu1{
+    display: block;
+    border-radius: 4px;
+}
+.ahm .ahm1{
+    position: absolute;
+    position: fixed;
+    left: 703px;
+    top: 440px;
+    width: 90px;
+    padding: 0px 5px;
+    display: none;
+    background-color: white;
+}
+.menu1 .ahm .ahm1 li a{
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    color: black;
+}
+.menu1:hover .ahm:hover .ahm1{
+    display: block;
+    position: fixed;
+    border-radius: 4px;
+    position: absolute;
+}
+.ben .ben1{
+    position: absolute;
+    position: fixed;
+    left: 703px;
+    top: 460px;
+    width: 90px;
+    padding: 0px 5px;
+    display: none;
+    background-color: white;
+}
+.menu1 .ben .ben1 li a{
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    color: black;
+}
+.menu1:hover .ben:hover .ben1{
+    display: block;
+    position: fixed;
+    border-radius: 4px;
+    position: absolute;
+}
+.che .che1{
+    position: absolute;
+    position: fixed;
+    left: 703px;
+    top: 480px;
+    width: 90px;
+    padding: 0px 5px;
+    display: none;
+    background-color: white;
+}
+.menu1 .che .che1 li a{
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    color: black;
+}
+.menu1:hover .che:hover .che1{
+    display: block;
+    position: fixed;
+    border-radius: 4px;
+    position: absolute;
+}
+.del .del1{
+    position: absolute;
+    position: fixed;
+    left: 703px;
+    top: 500px;
+    width: 90px;
+    padding: 0px 5px;
+    display: none;
+    background-color: white;
+}
+.menu1 .del .del1 li a{
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    color: black;
+}
+.menu1:hover .del:hover .del1{
+    display: block;
+    position: fixed;
+    border-radius: 4px;
+    position: absolute;
+}
+.jam .jam1{
+    position: absolute;
+    position: fixed;
+    left: 703px;
+    top: 530px;
+    width: 90px;
+    padding: 0px 5px;
+    display: none;
+    background-color: white;
+}
+.menu1 .jam .jam1 li a{
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    color: black;
+}
+.menu1:hover .jam:hover .jam1{
+    display: block;
+    position: fixed;
+    border-radius: 4px;
+    position: absolute;
+}
+.koc .koc1{
+    position: absolute;
+    position: fixed;
+    left: 703px;
+    top: 550px;
+    width: 90px;
+    padding: 0px 5px;
+    display: none;
+    background-color: white;
+}
+.menu1 .koc .koc1 li a{
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    color: black;
+}
+.menu1:hover .koc:hover .koc1{
+    display: block;
+    position: fixed;
+    border-radius: 4px;
+    position: absolute;
+}
+.mor .mor1{
+    position: absolute;
+    position: fixed;
+    left: 703px;
+    top: 570px;
+    width: 150px;
+    padding: 0px 5px;
+    display: none;
+    background-color: white;
+}
+.menu1 .mor .mor1 li a{
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    color: black;
+}
+.menu1:hover .mor:hover .mor1{
+    display: block;
+    position: fixed;
+    border-radius: 4px;
+    position: absolute;
+}
+.raj .raj1{
+    position: absolute;
+    position: fixed;
+    left: 703px;
+    top: 570px;
+    width: 150px;
+    padding: 0px 5px;
+    display: none;
+    background-color: white;
+}
+.menu1 .raj .raj1 li a{
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    color: black;
+}
+.menu1:hover .raj:hover .raj1{
+    display: block;
+    position: fixed;
+    border-radius: 4px;
+    position: absolute;
+}
