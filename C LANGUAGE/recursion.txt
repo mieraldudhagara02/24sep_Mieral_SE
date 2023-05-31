@@ -1,0 +1,20 @@
+--> Recursive Function:-
+
+
+A Function which calls itself is called Recursive Function. And this technique is known as Recursion.
+
+SYNTAX:-
+--------
+void main()
+{
+	-------
+	m1();
+	-------
+}
+
+void m1()
+{
+	-------
+	m1();	// recursive function
+	-------
+}
