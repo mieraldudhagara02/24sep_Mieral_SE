@@ -1,0 +1,152 @@
+BITWISE OPERATOR:
+----------------
+
+Bitwise operators consists of two digits, either 0 or 1.
+
+
+-> BITWISE AND OPERATOR [&]:-
+   ________________________
+
+- Bitwise AND operator is denoted by the single ampersand sign (&).
+- Two integer operands are written on both sides of the (&) operator. 
+- If the corresponding bits of both the operands are 1, then the output of the bitwise AND operation 
+  is 1; otherwise, the output would be 0.
+
+We have two variables a and b.  
+a = 6;  
+b = 4;  
+The binary representation of the above two variables are given below:  
+a = 0110  
+b = 0100 
+--------
+    0100 
+When we apply the bitwise AND operation in the above two variables, i.e., a&b, the output would be:  
+Result = 0100 
+
+As we can observe from the above result that bits of both the variables are compared one by one. 
+If the bit of both the variables is 1 then the output would be 1, otherwise 0.
+
+
+-> BITWISE OR OPERATOR [|]:-
+   _______________________
+
+- The bitwise OR operator is represented by a single vertical sign (|). 
+- Two integer operands are written on both sides of the (|) symbol. 
+- If the bit value of any of the operand is 1,then the output would be 1, otherwise 0. 
+
+We consider two variables,  
+a = 23;  
+b = 10;  
+The binary representation of the above two variables would be:  
+a = 0001 0111  
+b = 0000 1010 
+-------------
+    0001 1111 
+When we apply the bitwise OR operator in the above two variables, i.e., a|b , then the output would be:  
+Result = 0001 1111  
+
+As we can observe from the above result that the bits of both the operands are compared one by one; 
+if the value of either bit is 1, then the output would be 1 otherwise 0.
+
+
+-> BITWISE XOR OPERATOR [EXCLUSIVE OR ^]:-
+   _____________________________________
+
+- Bitwise exclusive OR operator is denoted by (^) symbol. 
+- Two operands are written on both sides of the exclusive OR operator. 
+- If the corresponding bit of any of the operand is 1 then the output would be 1, otherwise 0.
+
+We consider two variables a and b,  
+a = 12;  
+b = 10;  
+The binary representation of the above two variables would be:  
+a = 0000 1100  
+b = 0000 1010
+-------------
+    0000 1110  
+When we apply the bitwise exclusive OR operator in the above two variables (a^b), then the result 
+would be:  
+Result = 0000 1110 
+
+As we can observe from the above result that the bits of both the operands are compared one by one; 
+if the corresponding bit value of any of the operand is 1, then the output would be 1 otherwise 0.
+
+
+-> BITWISE COMPLEMENT OPERATOR [~]:-
+   _______________________________
+
+- The bitwise complement operator is also known as one's complement operator. 
+- It is represented by the symbol tilde (~). 
+- It takes only one operand or variable and performs complement operation on an operand. 
+- When we apply the complement operation on any bits, then 0 becomes 1 and 1 becomes 0.
+
+If we have a variable named 'a',  
+a = 8;  
+The binary representation of the above variable is given below:  
+a = 1000 
+--------
+    0111 
+When we apply the bitwise complement operator to the operand, then the output would be:  
+Result = 0111 
+
+As we can observe from the above result that if the bit is 1, then it gets changed to 0 else 1.
+
+
+-> BITWISE SHIFT OPERATORS [<<n,n>>]:-
+   _________________________________
+
+- Two types of bitwise shift operators exist in C programming. 
+- The bitwise shift operators will shift the bits either on the left-side or right-side. 
+- Therefore, we can say that the bitwise shift operator is divided into two categories:
+
+* Left-shift operator
+* Right-shift operator
+
+Left-shift operator:
+-------------------
+It is an operator that shifts the number of bits to the left-side.
+
+-SYNTAX:
+ Operand << n 
+ 
+Where,
+Operand is an integer expression on which we apply the left-shift operation.
+'n' is the number of bits to be shifted.
+
+- In the case of Left-shift operator, 'n' bits will be shifted on the left-side. 
+- The 'n' bits on the left side will be popped out, and 'n' bits on the right-side are filled with 0.
+
+Suppose we have a statement:  
+int a = 5;  
+The binary representation of 'a' is given below:  
+a = 0000 0101
+-------------
+    0001 0100  
+If we want to left-shift the above representation by 2, then the statement would be:   
+a << 2;  
+0101<<2 = 00010100 
+
+
+Right-shift operator:
+--------------------
+It is an operator that shifts the number of bits to the right side.
+
+-SYNTAX:
+ Operand >> n;  
+
+Where,
+Operand is an integer expression on which we apply the right-shift operation.
+'n' is the number of bits to be shifted.
+
+- In the case of the right-shift operator, 'n' bits will be shifted on the right-side. 
+- The 'n' bits on the right-side will be popped out, and 'n' bits on the left-side are filled with 0.
+
+Suppose we have a statement,  
+int a = 7;  
+The binary representation of the above variable would be:  
+a = 0000 0111
+-------------
+    0000 0001  
+If we want to right-shift the above representation by 2, then the statement would be:  
+a>>2;  
+0111>>2 = 0000 0001   

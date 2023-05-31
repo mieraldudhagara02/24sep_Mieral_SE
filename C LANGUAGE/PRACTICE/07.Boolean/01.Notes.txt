@@ -1,0 +1,49 @@
+BOOLEANS:
+--------
+
+Very often, in programming, you will need a data type that can only have one of two values, like:
+- YES / NO
+- ON / OFF
+- TRUE / FALSE
+
+For this, C has a bool data type, which is known as booleans.
+Booleans represent values that are either true or false.
+
+-> you must import the following header file to use it:
+   #include <stdbool.h>
+
+A boolean variable is declared with the bool keyword and can only take the values true or false:
+  bool isProgrammingFun = true;
+  bool isFishTasty = false;
+
+->Before trying to print the boolean variables, you should know that boolean values are 
+  returned as integers:
+		- 1 (or any other number that is not 0) represents true
+		- 0 represents false
+
+Therefore, you must use the %d format specifier to print a boolean value:
+
+EXAMPLE:
+-------
+// Create boolean variables
+bool isProgrammingFun = true;
+bool isFishTasty = false;
+
+// Return boolean values
+printf("%d", isProgrammingFun);   // Returns 1 (true)
+printf("%d", isFishTasty);        // Returns 0 (false)
+
+
+However, it is more common to return a boolean value by comparing values and variables.
+COMPARING VALUES AND VARIABLES:
+-------------------------------
+Comparing values are useful in programming, because it helps us to find answers and make decisions.
+
+For example, you can use a comparison operator, such as the greater than (>) operator, 
+to compare two values:
+
+Example
+printf("%d", 10 > 9);  // Returns 1 (true) because 10 is greater than 9
+
+Thus, we can use operators and conditions in Booleans.
+-----------------------------------------------------

@@ -1,0 +1,21 @@
+DATA TYPES:
+-----------
+
+
+DataType                  Size                           Description
+--------                  ----                           -----------
+
+int[%d]                 2 or 4 bytes                 stores whole numbers, without decimals
+long int[%ld]           4 bytes
+
+float[%f]               4 bytes                      stores fractionals numbers, containing one or more
+                                                      decimal numbers. Sufficient for storing 6-7 
+                                                      decimal digits.
+
+double[%lf]             8 bytes                      stores fractionals numbers, containing one or more
+                                                      decimal numbers. Sufficient for storing 15 
+                                                      decimal digits.
+long double[%Lf]        12-16 bytes
+
+char[%c]                1 byte                       stores a single character/letter/number, 
+                                                      or ASCII values

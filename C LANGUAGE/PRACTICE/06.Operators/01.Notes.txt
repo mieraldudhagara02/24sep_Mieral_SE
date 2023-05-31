@@ -1,0 +1,57 @@
+-> C divides the operators into the following groups:-
+
+           * Arithmetic operators
+           * Assignment operators
+           * Relational operators
+           * Logical operators
+           * Bitwise operators
+			 * Misc. operators
+
+- ARITHMETIC OPERATOR:
+   	+  Addition        [Adds together two values]
+   	-  Substraction    [Subtracts one value from another]
+   	/  Division        [Multiplies two values]
+   	*  Multiplication  [Divides one value by another]
+   	%  Modulus         [Returns the division remainder]
+   	++ Increment       [Increases the value of a variable by 1]
+	-- Decrement       [Decreases the value of a variable by 1]
+
+- ASSIGNMENT OPERATOR:
+	=	    Simple Assignment Operator	[x = 5 (x = 5)]
+	+=	    Add AND							[x += 3 (x = x + 3)]	
+	-=	    Substract AND					[x -= 3 (x = x - 3)]	
+	*=	    Multiply AND						[x *= 3 (x = x * 3)]
+	/=	    Divide AND						[x /= 3 (x = x / 3)]
+	%=	    Modulus AND						[x %= 3 (x = x % 3)]
+	&=	    Bitwise AND						[x &= 3 (x = x & 3)]						
+	|=	    Bitwise Inclusive OR			[x |= 3 (x = x | 3)]
+	^=	    Bitwise Exclusive OR			[x ^= 3 (x = x ^ 3)]	
+	>>=	    Right Shift AND					[x >>= 3 (x = x >> 3)]	
+	<<=	    Left Shift AND					[x <<= 3 (x = x << 3)]	
+
+- RELATIONAL OPERATOR:
+	==		Equal						[Equal to	(x == y)]
+	!=		Not Equal					[Not equal (x != y)]
+	>		Greater than				[Greater than (x > y)]
+	<		Less than					[Less than (x < y)]
+	>=		Greater than Equals to	[Greater than or equal to (x >= y)]
+	<=		Less than Equals to		[Less than or equal to (x <= y)]
+
+- LOGICAL OPERATOR:
+	&&		Logical AND		[Returns true if both statements are true]
+	||		Logical OR		[Returns true if one of the statements is true]
+	!		Logical NOT		[Reverse the result, returns false if the result is true]
+
+- BITWISE OPERATOR:
+	&		Binary AND
+	|		Binary OR
+	^		Binary XOR
+	~		Complement
+	<<		Binary Left Shift
+	>>		Binary Right Shift
+
+- MISC. OPERATOR:
+	sizeof()		Returns the size of a variable	
+	&				Ampersand						[Returns the address of a variable]
+	*				Pointer						[*a;]
+	?:				Conditional Expression		[If Condition is true ? then value X : otherwise value Y]

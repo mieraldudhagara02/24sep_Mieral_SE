@@ -1,0 +1,5 @@
+-> What is C Language?
+
+   C is general-purpose programming language.
+   created by Dennis Ritchie at the Bell Laboratories in 1972.
+[programming language -> Dennis Ritchie -> Bell Laboratories -> 1972]

@@ -1,0 +1,38 @@
+TYPE CONVERSION:
+---------------
+
+- Sometimes, you have to convert the value of one data type to another type. 
+  This is known as type conversion.
+
+There are two types of conversion in C:-
+--------------------------------------
+  1. Implicit Conversion (automatically)
+  2. Explicit Conversion (manually)
+
+
+--> Implicit Conversion:
+    -------------------
+- Implicit conversion is done automatically by the compiler when you assign a value of one type 
+  to another.
+
+Example:
+If you assign an int value to a float type
+
+         float myFloat = 9;
+         // Automatic conversion: int to float
+
+         printf("%f", myFloat); // 9.000000
+As you can see, the compiler automatically converts the int value 9 to a float value of 9.000000.
+and vice versa...
+
+
+--> Explicit Conversion:
+    -------------------
+- Explicit conversion is done manually by placing the type in parentheses () in front of the value. 
+
+Example:
+
+        float sum = (float) 5 / 2;
+        // Manual conversion: int to float
+
+        printf("%f", sum); // 2.500000
