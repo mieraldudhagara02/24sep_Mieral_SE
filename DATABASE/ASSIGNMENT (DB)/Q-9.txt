@@ -1,0 +1,8 @@
+Q-9. What is SAVEPOINT? How to create a SAVEPOINT? Write a Query.
+
+--> A SAVEPOINT is a point in a transaction when you can roll the transaction back to certain point
+    without rolling back the entire transaction.
+
+- The syntax for a SAVEPOINT command is as shown below.
+  
+  SAVEPOINT SAVEPOINT_NAME;

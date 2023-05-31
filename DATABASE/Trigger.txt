@@ -1,0 +1,25 @@
+--> WHAT IS TRIGGER?
+    _______________
+
+Triggers are stored procedure / programs, which are automatically executed or fired,
+when some events occur.
+
+->Row Level Trigger
+->Table Level Trigger
+
+Events can be any of the following:-
+1.DML
+2.DDL 
+3.Data Operations : LOGON, LOGOFF, STARTUP, SHUTDOWN
+
+SYNTAX:-
+------
+
+DELIMITER $$
+  
+CREATE [OR REPLACE] TRIGGER `trigger_name` 
+BEFORE / AFTER
+INSERT / UPDATE / DELETE
+ON `table_name` 
+FOR EACH ROW 
+[trigger_body] 

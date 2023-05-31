@@ -1,0 +1,163 @@
+--> Creating Table from Existing Table:
+    ----------------------------------
+
+    CREATE TABLE `new_table_name` AS SELECT `1st_column_name,..nth_column_name` FROM `existing_table_name` WHERE [condition];
+
+    - `column_name` : Existing table's column name
+
+
+
+
+--> INSERT INTO Statement:-
+    ---------------------
+
+    INSERT INTO `table_name` VALUES (&1st_column_name,'&2nd_column_name',...'&nth_column_name');
+   
+NOTE : Single Quote is used if column values's type is varchar.
+
+    Enter value for 1st_column:________
+    Enter value for nth_column:________
+    press / for add another row.....
+
+
+
+
+--> ALTER TABLE Statement:-
+    ---------------------
+   
+    The ALTER TABLE Statement is used to ADD, DELETE and MODIFY columns in an existing table.
+    The ALTER TABLE Statement is also used to ADD and DROP various constraints on an existing table.
+
+ADD:
+ALTER TABLE `table_name` ADD `column_name data_type size`;
+
+MODIFY(change):
+ALTER TABLE `table_name` MODIFY `column_name data_type size`; 
+
+- Here, we can change the size of column, datatype of column etc.
+
+DROP:
+ALTER TABLE `table_name` DROP COLUMN `column_name`;
+
+
+
+
+--> AGGREGATE FUNCTION:-
+    ------------------
+
+*min()   : returns the smallest value of the selected column.
+
+SELECT MIN `column_name` FROM `table_name` WHERE [condition];
+
+*max()   : returns the largest value of the selected column.
+
+SELECT MAX `column_name` FROM `table_name` WHERE [condition];
+
+*count() : returns the number of rows that matches a specified criterion.
+
+SELECT COUNT `column_name` FROM `table_name` WHERE [condition];
+
+- If we want specific column, COUNT Function is count only NOT NULL Values.
+- If we want all the column, COUNT Function is count NULL Values also.
+
+- If we want Distinct Value from the table..
+
+SELECT COUNT`distinct_column_name` FROM `table_name` WHERE [condition];
+
+*sum()   : returns the total sum of numeric column.
+
+SELECT SUM `column_name` FROM `table_name` WHERE [condition]
+
+*avg()   : returns the average value of a numeric column.
+
+SELECT AVG `column_name` FROM `table_name` WHERE [condition]
+
+
+
+
+
+--> ORDER BY:-
+    --------
+
+The ORDER BY keyword is used to sort the result-set in ascending or descending order.
+
+The ORDER BY keyword sorts the records in ascending order by default. To sort the records in descending
+order, use the DESC keyword.
+
+SELECT `column_name` FROM `table_name` ORDER BY `column_name` ASC|DESC;
+
+
+
+
+
+--> FIND Nth HIGHEST SALARY:-
+    -----------------------
+
+Finding the Nth highest salary (2nd, 3rd or nth highest) in a table is the most important and common
+question asked in various interviews.
+
+[for finding 2nd highest salary]
+ SELECT MAX(`Salary`) FROM `table_name` WHERE Salary<(SELECT MAX(`Salary`) FROM `employee`);
+ SELECT min(`Salary`) FROM (SELECT distinct salary from table_name order by Salary DESC) WHERE rownumber<3;
+                                                        __________
+
+-to find 3rd highest salary set rownum<4
+-to find 4th highest salary set rownum<5
+
+
+
+
+
+--> JOINS:-
+    -----
+
+The SQL JOIN clause is used to combine records from two or more tables in a database.
+A JOIN is a means for combining fields from two tables by using values common to each.
+
+REASON:- We JOIN two or more table if informstion needed is scattered among different table.
+
+-> INNER JOINS
+   ___________
+   -return only matching rows.
+   -enable a maximum of 256 tables to be joined at the same time.
+   
+   ->TYPES OF INNER JOIN:
+
+   1. CROSS JOIN [CARTESIAN PRODUCT]:-
+      -To understand how SQL processes a JOIN, it is important to understand the concept of the Cartesian product.
+      -A query that lists multiple tables in the FROM clause without a WHERE clause produces all possible combination
+       of rows from all tables. This result is called the Cartesian product or Cross join.
+
+SELECT * FROM `1st_table_name`,`2nd_table_name`;
+SELECT * FROM `1st_table_name` CROSS JOIN `2nd_table_name`;      
+                                   
+   2. EQUI JOIN:-
+   3. NATURAL JOIN:-
+   4. SELF JOIN = SELF JOIN is used to join a table to itself as if the table were two tables
+                = Temporarily renaming at least one table in the SQL Statement. 
+
+-> OUTER JOINS
+   ___________
+   -return all matching rows, plus nonmatching rows from one or both tables
+   -can be performed on only two tables or views at a time.
+
+   ->TYPES OF OUTER JOIN:
+   1. LEFT JOIN
+   2. RIGHT JOIN
+   3. FULL JOIN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

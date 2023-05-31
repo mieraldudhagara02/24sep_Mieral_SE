@@ -1,0 +1,21 @@
+Q-7. What is DML Compiler in SQL?
+
+-->  SQL statements are divided into two major categories:
+        1.DDL
+        2.DML
+
+- DDL stands for Data Definition Language.
+- DML stands for Data Manipulation Language.
+
+-->  DML Compiler is processes the DML statement into low level 
+     instruction (machine language), so that they can be executed.
+
+==>  List of DML Commands:-
+         
+            *INSERT : It is used to data insert into a table.
+
+            *UPDATE : It is used to update existing data within a table.
+
+            *DELETE : It is used to delete records from a database table.
+
+ 

@@ -1,0 +1,32 @@
+Q-10. What is Trigger and how to create a Trigger in SQL?
+
+-->   A Trigger is a special type of stored procedure that automatically runs
+      when an event occurs in the database server.
+
+- CREATING TRIGGER:-
+  ----------------
+
+-> create trigger [trigger_name] [before | after] {insert | update | delete} on [table_name]
+   [for each row] [trigger_body]
+
+-->  EXPLANATION OF SYNTAX:-
+     ---------------------
+
+- Create trigger [trigger_name]: Creates or replaces an existing trigger with the trigger_name.
+
+- [before | after]: This specifies when the trigger will be executed.
+
+- {insert | update | delete}: This specifies the DML operation.
+
+- on [table_name]: This specifies the name of the table associated with the trigger.
+
+- [for each row]: This specifies a row-level trigger, i.e., the trigger will be executed
+  for each row being affected.
+
+- [trigger_body]: This provides the operation to be performed as trigger is fired.
+
+-->  BEFORE and AFTER Trigger:-
+     ------------------------
+
+- BEFORE Triggers run the Trigger action before the triggering statement is run.
+- AFTER Triggers run the Trigger action after the triggering statement is run.

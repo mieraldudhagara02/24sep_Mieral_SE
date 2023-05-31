@@ -1,0 +1,28 @@
+Q-1. What do you understand by Database?
+
+
+-->  A Database is a collection of information that is organized so that
+     it can be easily accessed, managed and update.
+
+-->  A Database is a systematic collection of data.
+
+-->  They support electronic storage and manipulation of data.
+
+-->  Database make data management easy.
+
+-->  It can act as an iterface between computers and real-world systems.
+
+-->  Dtabase is where all data is stored.
+
+-->  In a Database, you can organize the data in rows and columns in the
+     form of a table.
+
+-->  Many websites on the World Wide Web are managed with the help of database.
+
+
+Example:
+->  A telephone directory uses a database to store data of people,
+    phone numbers and other contact details.
+
+-->  MySQL, SQL Server, MongoDB, Oracle Database etc. are all examples of 
+     different databases.
