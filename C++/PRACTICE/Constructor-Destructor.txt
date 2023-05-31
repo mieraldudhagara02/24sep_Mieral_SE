@@ -1,0 +1,108 @@
+CONSTRUCTOR:-
+
+-> Constructor has same name as class.
+-> Constructor is a special member function of class.
+-> We can declare multiple Constructor in a class.
+
+--> A Constructor can only have one access specifier, which is public.
+--> A Constructor is never inherited and overriden but, can be Overloaded.
+--> Each and every c++ class has Constructor either it is provided by copiler by default,
+    or explecitly created by the user.
+
+   ex:- class A
+	     {
+		 public:
+		 A()
+		 { 
+			cout<<"This is class A"<<endl; }
+		 };
+
+-> Constructor is being automatically call at the time of object declaration.
+
+-> The return type of the constructor is the class type.
+
+* Types of Constructor:-
+  --------------------
+
+1. Default Constructor
+2. Parameterized Constructor
+3. Copy Constructor
+
+1.Default Constructor:
+~~~~~~~~~~~~~~~~~~~~~
+A Constructor that accepts no parameters is called Default Constructor.
+
+SYNTAX:
+class class_name
+{
+	//data_member
+	//access_specifier
+	//constructor 
+	{
+		//code
+	}
+};
+
+
+2.Parameterized Constructor:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+A Constructor that accepts or receive parameters is called Parameterized Constructor.
+
+SYNTAX:
+class class_name
+{
+	//data_member
+	//access_specifier
+	//constructor (A(int a,int b))
+	{
+		//code
+	}
+};  
+
+
+3.Copy Constructor:
+~~~~~~~~~~~~~~~~~~
+A Constructor that is used to copy or initialized the value of one object into another object is called 
+Copy Constructor.
+
+SYNTAX:
+class class_name
+{
+	
+	//data_member
+	//access_specifier
+	//constructor (class_name &ref)
+	{
+		//code
+	}
+};
+
+
+
+	
+DESTRUCTOR:-
+
+-> Destructor is a special member function that is executed automatically.
+-> When an object is destroyed by the Destructor that has been created by tha Constructor.
+-> Destructor are used to de-allocate the memory that has been allocated for the object by the Constructor.
+-> A Destructor declaration should always begin with the tiled (~) symbol.
+-> Only One Destructor allows in a class.
+-> In Destructor, Overloading is not possible. 
+
+   ex:- class A
+		{
+			public:
+			A()
+			{
+				//code
+			}
+			~A()
+			{
+				cout<<"object destroyed";
+			}
+	    };
+		int main()
+		{
+			class_name object;
+			object.member_function;
+		}		   

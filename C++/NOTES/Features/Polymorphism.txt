@@ -1,0 +1,18 @@
+POLYMORPHISM:-
+------------
+One Name Many Form
+
+                       Greek Words
+                    _________________
+                    |               |
+-> Polymorphism = Poly(more) + Morphism(form)
+
+   "Whose meaning is same object having different behaviour."
+
+-> Types of Polymorphism:-
+
+   1. Compile time Polymorphism (Static Polymorphism)
+      EX:Method Overloading
+
+   2. Run time Polymorphism (Dynamic Polymorphism)
+      EX:Method Overriding

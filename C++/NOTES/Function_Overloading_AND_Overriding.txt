@@ -1,0 +1,70 @@
+--> FUNCTION OVERLOADING:
+
+    Whenever a program contains more than one function with same name and different types of
+    parameters is called Function Overloading.
+
+SYNTAX:=
+______
+class class_name
+{
+	//access_specifier
+	//data_member
+	//member_function      //int add()
+	{
+		//code
+	}
+
+	//member_function      //int add(int a)
+	{
+		//code
+	}
+}; 
+
+
+--> FUNCTION OVERRIDING:
+
+    Whenever we writing function in Base Class and Derive Class in such a way that Function name
+    and Parameter must be same is called Function Overriding.
+
+SYNTAX:=
+______
+calss class_name(base_class)
+{
+	//access_specifier
+	//data_member
+	//member_function      //int sum(int a,int b)
+	{
+		//code
+	}
+};
+calss class_name(derive_class) : public/private/protected class_name(base_class)
+{
+	//access_specifier
+	//data_member
+	//member_function      //int sum(int a,int b)
+	{
+		//code
+	}
+};
+
+int main()
+{
+	class_name(derive_class) object;
+	object.member_function;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

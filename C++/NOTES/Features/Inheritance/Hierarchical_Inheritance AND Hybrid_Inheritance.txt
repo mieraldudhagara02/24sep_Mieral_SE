@@ -1,0 +1,45 @@
+4. HIERARCHICAL INHERITANCE:
+   A Class which contain only one Base Class and multiple Derive Class but each Derive Class can access
+   Base Class is called Hierarchical Inheritance.
+
+SYNTAX:=
+______
+class class_name //Base_class
+{
+	//access_specifier
+	//data_member
+	//member_function
+	{
+		//code
+	}
+};
+class class_name(Derive_class_1) : public/private/protected class_name(base_class) 
+{
+	//access_specifier
+	//data_member
+	//member_function
+	{
+		//code
+	}
+};
+class class_name //Derive_class_2 : public/private/protected class_name(base_class)
+{
+	//access_specifier
+	//data_member
+	//member_function
+	{
+		//code
+	}
+};
+int main()
+{
+	class_name(derive_class_1) object;
+     object.member_function();
+
+	class_name(derive_class_2) object;
+     object.member_function();
+}
+
+
+5. HYBRID INHERITANCE:
+   It is the combination of more than one type of Inheritance is called Hybrid Inheritance.

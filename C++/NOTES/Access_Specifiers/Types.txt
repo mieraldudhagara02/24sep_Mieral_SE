@@ -1,0 +1,11 @@
+Access Specifiers of class:
+__________________________
+
+1.Private   = member of class | friend
+
+2.Public    = base class | derive class
+  
+3.Protected = inside of class | outside of class
+
+By default the access apecifier of class is Private.
+          

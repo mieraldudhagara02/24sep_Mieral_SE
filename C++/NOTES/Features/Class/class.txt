@@ -1,0 +1,43 @@
+--> What is Class? Types of Class.
+    ------------------------------
+
+Class is a user define datatype, which is declared by keyword class.
+                                                              ------
+Class is a collection of data member and member function.
+Class contain it's own data member and member function.
+These data member and member function accessed by access specifier.
+
+Class is accessed and used by creating object of that class.
+
+
+--------------------------------------------------------------------------------------------------------
+--> What is Object?
+    --------------
+
+Object is instance of a class.
+
+Whenever class is defined, no memory is allocated but, when object is initialized memory is allocated
+of that class.
+
+
+--------------------------------------------------------------------------------------------------------
+  SYNTAX:
+  ------
+     class A
+     {
+       access_specifier:  // can be private, protected and public
+       data_members;      // variables to be used
+       member_function() 
+         {
+         }
+     };                   // class name ends with a semicolon
+
+Types of Class:-
+--------------
+1.Local Class
+2.Global Class
+3.Nested Class
+4.Friend Class
+5.Template Class
+6.Abstact Class
+7.Static Class

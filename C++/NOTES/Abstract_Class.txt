@@ -1,0 +1,14 @@
+ABSTRACT CLASS:
+______________
+A Class which contain atleast one pure virtual function is called Abstract Class.
+
+	SYNTAX:=
+   -------
+class class_name
+{
+	//access_specifier
+	virtual int show() = 0;  //pure_virtual_function
+};
+
+--> PURE VIRTUAL FUNCTION:
+    Pure Virtual Function have no defination. They starts with virtual keyword and ends with equal to zero.

@@ -1,0 +1,26 @@
+--> Public Access Specifier:-
+
+
+class A
+{
+	public:
+		//data_member
+		//member_function
+		{
+			//code
+		}
+};
+
+int main()
+{
+	base_class object;
+	object.member_function;
+	
+/* for getting value outside the calss */
+
+	(object.data_member = value;
+	cout<<endl<<"Value of __ outside the	class is:"<<object.data_member;)
+	//a1.b=20;
+	//cout<<endl<<"Value of b outside the class is:"<<a1.b;)
+	
+}

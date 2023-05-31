@@ -1,0 +1,23 @@
+1.LOCAL CLASS: A class which is declared inside a function or block is called Local Class.
+  ___________
+
+  SYNTAX:
+  ------
+     return_type function_name()
+     {
+       class class_name
+       {
+         access_specifier:
+         data_members;
+         member_function()
+         {
+         }
+       };
+       class_name object;
+       object.member_function();
+     }
+
+     int main()
+     {
+      function_name();
+     }

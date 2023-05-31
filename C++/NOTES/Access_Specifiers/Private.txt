@@ -1,0 +1,40 @@
+--> Private Access Specifier:-
+
+class class_name
+{
+	private:
+		  //data_member
+		  
+	public:
+		//member_fuction
+		{
+			//code
+		}
+		
+		friend(keyword) class(keyword) class_name;
+};
+
+class(friend_class) class_name
+{
+	public:
+		//member_function(Base_class ref(refrence))
+		{
+			//code
+
+		      (ref.a = 10;
+			ref.b = 20;
+			
+			cout<<"Value of a is:"<<ref.a<<endl;
+			cout<<"Value of b is:"<<ref.b<<endl;
+			
+			return 0;)
+		}
+};
+
+int main()
+{
+	Base_class_name object;
+	friend_class object;
+	object.member_function(Base_class);
+	object.member_function(Friend_class);
+}

@@ -1,0 +1,100 @@
+FRIEND CLASS:
+------------
+
+-> If a class become a friend class to a other class then it can access all the functions.
+   i.e. Private and Protected member of that class.
+
+-> Friend class is declared always with friend keyword.
+
+SYNTAX:=
+______
+class class_name
+{
+	//data_member
+	//access_specifier
+	//member_function()
+	{
+		//code
+	}
+	friend class class_name;
+};
+
+class class_name (friend_class)
+{
+	//data_member
+	//access_specifier
+	//member_function(class_name[base_class_name] object)
+	{
+		//code
+	}
+};
+
+int main()
+{
+	class_name[friend_class_name] object;
+	object.member_function;
+}
+
+
+
+
+FRIEND FUNCTION:
+---------------
+
+-> Friend Function is a function which is not the member of the class instead of that it can access
+   Private and Protected member of class.
+
+-> Friend Function is declared in the class with friend keyword.
+
+-> Friend Function can become friend to more than one class.
+
+SYNTAX:=
+______
+class class_name
+{
+	//data_member
+	//access_specifier
+	//member_function()
+	{
+		//code
+	}
+	friend return_type function_name(class_name[base_class] object)
+};
+
+member_function(class_name[base_class] object) //friend_function
+	{
+		//code
+	}
+};
+
+int main()
+{
+	class_name[derived_class] object;
+	object.member_function;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

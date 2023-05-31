@@ -1,0 +1,37 @@
+2. MULTI LEVEL INHERITANCE:
+   A Class which contain only one Base Class and multiple Derive Class is called Multi level Inheritance.
+
+SYNTAX:=
+______
+class class_name //Base_class
+{
+	//access_specifier
+	//data_member
+	//member_function
+	{
+		//code
+	}
+};
+class class_name(derived_class) : public/private/protected class_name(base_class)
+{
+	//access_specifier
+	//data_member
+	//member_function
+	{
+		//code
+	}
+};
+class class_name(derived_class) : public/private/protected class_name(base_class)
+{
+	//access_specifier
+	//data_member
+	//member_function
+	{
+		//code
+	}
+};
+int main()
+{
+	class_name(derived_class) object;
+   object.member_function();
+}

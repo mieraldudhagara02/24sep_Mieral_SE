@@ -1,0 +1,70 @@
+--> What is C++?
+    ------------
+
+C++ is an Object Oriented Programming Language(OOP).
+It's also known as Structural Programming Language.
+
+--> Features of C++:-
+    ---------------
+
+* Array                               * Inheritance
+* Sructure                            **Polymorphism
+**Class and Object                    * Encapsulation
+* Constuctor and Destructure          * Quere and Linked list
+* Containership Sorting
+
+--> Function:-
+    --------
+
+1. User Define Function
+   Those Functions which have body. 
+
+   Example: int main()
+            {
+               //code
+            }
+
+2. Pre Define Function
+   Those Functions which ended by semicolon.
+
+   Example: printf( );
+
+--> Program Debugging:-
+    -----------------
+
+After writing a program the next step is to debug the program.
+Debugging means Solving the errors and faults.
+
+ERROR:
+
+1.Syntax Error  
+2.Runtime Error  
+3.Logical Error 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

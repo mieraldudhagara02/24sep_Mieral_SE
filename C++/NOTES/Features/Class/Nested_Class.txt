@@ -1,0 +1,24 @@
+3.NESTED CLASS: A Class which is declared or contain inside another class is called Nested Class.
+  ____________
+
+  SYNTAX:
+  ------
+     class class_name1
+     {
+      public:  //access_specifier
+      
+      class class_name2
+      {
+        access_specifier:
+        data_members;
+        member_function()
+        {
+        }
+      };
+     };
+
+    int main()
+    {
+     class_name1::class_name2 object;
+     object.member_function();
+    }

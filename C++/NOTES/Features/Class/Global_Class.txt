@@ -1,0 +1,19 @@
+2.GLOBAL CLASS: A Class which declared outside of all the functions or block is called Global Class.
+  ____________
+  
+  SYNTAX:
+  ------
+     class class_name
+     {
+       access_specifier:
+       data_members;
+       member_function()
+       {
+       }
+     };
+
+     int main()
+     {
+      class_name object;
+      object.member_function();
+     }

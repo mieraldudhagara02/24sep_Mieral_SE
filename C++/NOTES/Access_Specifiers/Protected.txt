@@ -1,0 +1,31 @@
+--> Protected Access Specifier:-
+
+		Base_class class_name  
+			{
+				protected:
+					//data_member
+		
+				public:
+					//member_function
+					{
+						//code
+					}
+
+			};
+
+		Derived_class class_name : public Miral  //in protected access specifier we have to inherit base calss as a publicly  
+                                 ------          -------------------------------------------------------------------------
+			{
+				public:
+					//member_function
+					{
+						//code
+					}	
+		
+			};
+
+		int main()
+		{
+			derived_class object;
+			object.member_function();
+		}

@@ -1,0 +1,34 @@
+INHERITANCE:-
+-----------
+
+One class inherits the property of other class is known as Inheritance.
+In other word we can say when one class access the property of another class is called Inheritance.
+
+1. SINGLE INHERITANCE:
+   A Class which contain only one Base Class and only one Derived Class is called Single Inheritance.
+
+SYNTAX:=
+______
+class class_name //Base_class
+{
+	//access_specifier
+	//data_member
+	//member_function
+	{
+		//code
+	}
+};
+class class_name(derived_class) : public/private/protected class_name(base_class)
+{
+	//access_specifier
+	//data_member
+	//member_function
+	{
+		//code
+	}
+};
+int main()
+{
+	class_name(derived_class) object;
+   object.member_function();
+}

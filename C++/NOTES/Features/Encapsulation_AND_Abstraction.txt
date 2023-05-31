@@ -1,0 +1,20 @@
+ENCAPSULATION:-
+-------------
+
+-That used to wrapping the data and function into a single unit.
+
+-Information Hiding Concept.
+
+-The data of class is not accessible to outside the class, 
+ only those function access data which are wrapped in the class.
+
+
+ABSTRACTION:-
+-----------
+
+-Abstraction is showing only the essential information to the outside world,
+ and hiding the internal details.
+
+Types of Performing Abstraction:
+1. Class
+2. Headerfile

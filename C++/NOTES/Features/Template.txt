@@ -1,0 +1,29 @@
+TEMPLATE:
+--------
+-> Independent of datatype is called Template.
+
+
+
+
+1.TEMPLATE FUNCTION
+
+template <class type>
+return_type function_name(parameter_list) //return_type is same as class_type
+{
+	//code
+}
+
+
+
+2.TEMPLATE CLASS
+
+template <class type>
+class class_name
+{
+	//code
+}
+
+int main()
+{
+	class_name <data_type> class_object(value);
+}	
