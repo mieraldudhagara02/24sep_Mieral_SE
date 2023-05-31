@@ -1,0 +1,20 @@
+--> Inline Function:-
+
+-   Inline is a request to the compiler (not a command) to make a function as an 
+    Inline Function (not a normal function).
+
+    ex. we are requesting to the teacher for entering in the class(may i coming)...
+
+-   We are using Inline Function for reducing the overhead of function calling. 
+
+-   If compiler treat a function as a Inline Function, it substitute the code of function
+    in a single line.
+
+-   Inline Function should contain a single instruction. (Inline means Single Line).
+
+SYNTAX:-
+
+inline return-type function_name()
+{
+ ___________ //single instruction
+}
